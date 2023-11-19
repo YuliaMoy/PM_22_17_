@@ -27,8 +27,8 @@ exports.html = html_task;
 //об'єднання, компіляція Sass в CSS, додавання префіксів і подальша мінімізація коду
 function sass_task(cb) {
     pump([
-        gulp.src("app/sass/*.sass"),
-        concat('styles.sass'),
+        gulp.src("app/sass/*.scss"),
+        concat('style.scss'),
         sass(),
         autoprefixer({
             overrideBrowserslist: ['last 2 versions'],

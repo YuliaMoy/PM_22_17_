@@ -1,9 +1,0 @@
-div {
-    background-color: #f90000;
-    height: 50px;
-    width: 300px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: calc(25px);
-}

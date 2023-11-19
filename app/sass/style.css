@@ -1,0 +1,614 @@
+.main {
+  background-color: #ffffff;
+  display: flex;
+  height: 729.5px;
+}
+
+.sidebar {
+  background-color: #292f35;
+  display: block;
+  flex-direction: column;
+  width: 100px;
+  align-items: center;
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  background-color: #f2f2f2;
+  height: 100px;
+  width: 1450px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 0px;
+}
+
+.reload {
+  display: block;
+}
+
+.button-reload {
+  display: flexbox;
+  align-items: center;
+  width: 41px;
+  height: 41px;
+  padding-bottom: 2px;
+  border-radius: 50%;
+  background-color: #ff4f3f;
+  border: none;
+  margin: 30px 0px 30px 30px;
+}
+
+.dashboard {
+  background-color: #f2f2f2;
+  display: flex;
+  border: 1px solid rgb(163, 162, 162);
+  align-items: center;
+  border-radius: 25px;
+  height: 40px;
+  width: 120px;
+  justify-content: center;
+  margin: 30px 1000px 30px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4b4b4b;
+  font-family: "Freight Sans Pro Semi bold Regular", sans-serif;
+}
+
+.down {
+  display: block;
+}
+
+.button-down {
+  display: flexbox;
+  width: 41px;
+  height: 41px;
+  border: none;
+  background-color: #a9cb4d;
+  border-radius: 100%;
+  padding-top: 2px;
+  margin: 30px 0px;
+}
+
+.users-online {
+  background-color: #f2f2f2;
+  display: flex;
+  border: 1px solid rgb(163, 162, 162);
+  align-items: center;
+  border-radius: 25px;
+  height: 40px;
+  width: 160px;
+  justify-content: center;
+  margin: 30px 10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #4b4b4b;
+  font-family: "Freight Sans Pro Semi bold Regular", sans-serif;
+  text-transform: uppercase;
+}
+
+.side-block {
+  padding: 0px 20px;
+  font-family: "Freight Sans Pro Semi bold Regular", sans-serif;
+}
+
+.two {
+  position: absolute;
+  align-self: flex-end;
+  width: 25px;
+  height: 25px;
+}
+
+.side-user-img {
+  align-items: center;
+  padding: 10px 20px 5px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.icon-fill {
+  fill: #595959;
+  align-self: center;
+}
+
+.bi-bi-three-dots {
+  height: 20px;
+  width: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings {
+  margin-bottom: 100px;
+}
+
+.text-icon {
+  color: #595959;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.34);
+}
+
+.text-icon-white {
+  color: white;
+  font-size: 10px;
+  line-height: 37px;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.34);
+}
+
+.bi-bi-justify {
+  position: relative;
+  margin-top: 9px;
+  height: 27px;
+  width: 27px;
+}
+
+.bi-bi-wrench-adjustable-circle-fill {
+  margin-right: 60px;
+  align-self: center;
+  position: relative;
+  margin-top: 9px;
+  height: 27px;
+  width: 27px;
+}
+
+.bi-9-circle-fill {
+  position: absolute;
+  top: 5px;
+  padding-left: 35px;
+  margin-bottom: 30px;
+}
+
+.bi-3-circle-fill {
+  position: absolute;
+  padding-left: 33px;
+}
+
+.nine {
+  z-index: 3;
+  position: absolute;
+  align-self: flex-end;
+  width: 25px;
+  height: 25px;
+}
+
+.three {
+  z-index: 3;
+  position: absolute;
+  align-self: flex-end;
+  width: 25px;
+  height: 25px;
+}
+
+.text-icon-5 {
+  color: #ffffff;
+}
+
+.text-icon-1 {
+  color: #ffffff;
+}
+
+.bi-bi-speedometer {
+  height: 27px;
+  width: 27px;
+}
+
+.labels {
+  position: fixed;
+  top: 100px;
+  display: flex;
+  background-color: #f1f1f1;
+  height: 80px;
+  width: 100%;
+  border: 1px solid #d3d7d9;
+  font-family: "Freight Sans Pro Medium Regular", sans-serif;
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.31);
+  color: #4b4b4b;
+}
+
+.active-projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 80px;
+  background-color: #ffffff;
+  border: 1px solid #d3d7d9;
+  border-bottom: #ffffff;
+  text-align: center;
+}
+
+.messenger {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 79px;
+  background-color: #f8f8f8;
+  border: 1px solid #d3d7d9;
+  text-align: center;
+}
+
+.bi-bi-clock {
+  transform: translateX(-10px);
+}
+
+.l-notification {
+  transform: translateY(-15px);
+  margin-top: 10px;
+}
+
+.bi-bi-send {
+  transform: translateX(-20px);
+  transform: rotateZ(270deg);
+  margin-right: 15px;
+}
+
+.search {
+  font-family: "Freight Sans Pro Medium Regular", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 130px;
+  text-align: end;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.0025em;
+  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.31);
+  color: #c1c1c1;
+}
+
+.info-blocks {
+  display: flex;
+  flex-direction: row;
+}
+
+.percentage-block {
+  overflow-y: scroll;
+  flex-direction: row;
+  position: fixed;
+  top: 170px;
+  left: 120px;
+  width: 986px;
+  height: 510px;
+  border: 1px solid rgba(212, 212, 212, 0.8);
+  box-shadow: -1px 1px 4px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 30px 15px;
+}
+
+.notify-block::-webkit-scrollbar {
+  width: 6px;
+}
+
+.notify-block::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+  border-radius: 5px;
+  width: 6px;
+}
+
+.percentage-block::-webkit-scrollbar {
+  width: 6px;
+}
+
+.percentage-block::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+  border-radius: 5px;
+  width: 6px;
+}
+
+.search-projectname {
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  height: 70px;
+  border-bottom: 1px solid rgba(212, 212, 212, 0.8);
+  font-family: "Freight Sans Pro Medium Regular", sans-serif;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.31);
+  color: #c1c1c1;
+}
+
+.new-project-main {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  font-family: "Freight Sans Pro Semi bold Regular", sans-serif;
+}
+
+.new-projects-plus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 229px;
+  height: 40px;
+  border: 1px solid rgba(164, 164, 164, 0.52);
+  border-radius: 25px;
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.51);
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  color: #4b4b4b;
+}
+
+.new-button {
+  display: flexbox;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding-top: 5px;
+  background-color: #ff503f;
+  border-radius: 50%;
+  border: none;
+  margin-left: 10px;
+}
+
+.notify-block {
+  position: fixed;
+  top: 170px;
+  left: 1136px;
+  width: 367px;
+  height: 510px;
+  overflow-y: scroll;
+  border: 1px solid rgba(212, 212, 212, 0.8);
+  box-shadow: -1px 1px 4px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 30px 0px;
+}
+
+.project-row {
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  height: 90px;
+  border-bottom: 1px solid rgba(212, 212, 212, 0.8);
+}
+
+.percent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 57px;
+  height: 33px;
+  background-color: #ff503f;
+  border-radius: 5px;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+}
+
+.caption {
+  font-family: "Freight Sans Pro Medium", sans-serif;
+  padding-left: 15px;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.31);
+  color: #4b4b4b;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+.name-button {
+  width: 90px;
+  height: 33px;
+  background-color: rgba(19, 148, 248, 0);
+  border: 1px solid rgba(164, 164, 164, 0.52);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.51);
+  border-radius: 25px;
+  font-family: "Freight Sans Pro Semibold", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.31);
+  color: #4b4b4b;
+}
+
+.search-button {
+  width: 34px;
+  height: 34px;
+  background-color: rgba(19, 148, 248, 0);
+  border: 1px solid rgba(164, 164, 164, 0.52);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.51);
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.more-button {
+  width: 34px;
+  height: 34px;
+  background-color: rgba(19, 148, 248, 0);
+  border: 1px solid rgba(164, 164, 164, 0.52);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.51);
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.second-button {
+  width: 106px;
+}
+
+.third-button {
+  width: 137px;
+}
+
+.archiv {
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  height: 55px;
+  border-bottom: 1px solid rgba(212, 212, 212, 0.8);
+}
+
+.archiv-button {
+  height: 40px;
+  width: 140px;
+  font-family: "Freight Sans Pro Medium Regular", sans-serif;
+  font-size: 18px;
+  line-height: 37px;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.31);
+  color: #4b4b4b;
+  border: none;
+  background-color: #fff;
+}
+
+.notify-block::-webkit-scrollbar {
+  width: 6px;
+}
+
+.notify-block::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+  border-radius: 5px;
+  width: 6px;
+}
+
+.bi-bi-gear-fill {
+  height: 27px;
+  width: 27px;
+}
+
+.bi-bi-wrench-adjustable-circle-fill {
+  left: 30px;
+  height: 27px;
+  width: 27px;
+}
+
+.notify-row {
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  height: 90px;
+  border-bottom: 1px solid rgba(212, 212, 212, 0.8);
+}
+
+.notification {
+  margin-left: 10px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.31);
+}
+
+.name {
+  color: #4b4b4b;
+  font-family: "Freight Sans Pro Medium Regular", sans-serif;
+}
+
+.message {
+  color: #9c9c9c;
+  font-family: "Freight Sans Pro Medium Regular", sans-serif;
+}
+
+.date-time-notification {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #9c9c9c;
+  font-family: "Freight Sans Pro Semi bold Regular", sans-serif;
+}
+
+.user-image-friend {
+  position: relative;
+  z-index: 1;
+  transform: translateY(-15px);
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+}
+
+.archiv {
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  height: 55px;
+  border-bottom: 1px solid rgba(212, 212, 212, 0.8);
+}
+
+.archiv-button {
+  height: 40px;
+  width: 140px;
+  font-family: "Freight Sans Pro Medium Regular", sans-serif;
+  font-size: 18px;
+  line-height: 37px;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.31);
+  color: #4b4b4b;
+  border: none;
+  background-color: #fff;
+}
+
+.archiv-button:hover {
+  cursor: pointer;
+  transition: 10ms linear;
+}
+
+.side-arrow {
+  transform: rotate(270deg);
+}
+
+.bi-circle-fill {
+  position: relative;
+  align-self: flex-start;
+  z-index: 5;
+}
+
+.bi-bi-power {
+  align-self: center;
+  height: 27px;
+  width: 27px;
+}
+
+.last {
+  position: absolute;
+  bottom: 5px;
+  margin: 0 0 auto 6px;
+}
+
+.peredlast {
+  margin-top: 130px;
+}/*# sourceMappingURL=style.css.map */
