@@ -21,6 +21,30 @@
 </head>
 
 <body>
+    <div class="alert alert-primary alert-notify" role="alert">
+        <div class="notify-row">
+            <div class="image-user-notify">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#aacc4e" class="bi bi-circle-fill"
+                    viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8" />
+                </svg>
+                <img class="user-image-friend" src="img/ivan.jpg" alt="">
+            </div>
+            <div class="notification">
+                <span class="name alert-name"></span>
+                <span class="message alert-mess"><br></span>
+                <span class="date-time-notification alert-dtime"></span>
+            </div>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg"
+                viewBox="0 0 16 16">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+            </svg>
+        </button>
+    </div>
     <div class="main">
         <div class="sidebar">
             <div class="side-user-img d-flex side-block">
@@ -117,7 +141,7 @@
                 <div class="reload">
                     <button class="button-reload">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white"
-                            class="bi bi-arrow-counterclockwise" viewBox="0 0 16 16" style="transform: rotate(369deg);">
+                            class="bi bi-arrow-counterclockwise" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
                                 d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z"></path>
                             <path
@@ -151,6 +175,20 @@
                             d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z">
                         </path>
                     </svg>
+                    <div class="show-users">
+                        <div class="user-hidden">
+                            <img class="user-hidden-photo" src="img/bred.jpg" alt="">
+                            <span id="hidden-name">Chris E.</span>
+                        </div>
+                        <div class="user-hidden">
+                            <img class="user-hidden-photo" src="img/robert1.jpg" alt="">
+                            <span id="hidden-name">Mark P.</span>
+                        </div>
+                        <div class="user-hidden">
+                            <img class="user-hidden-photo" src="img/chris.jpg" alt="">
+                            <span id="hidden-name">Sebastian K.</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="labels">
@@ -273,6 +311,76 @@
                                     </svg></button>
                             </div>
                         </div>
+
+                        <div class="project-row-hidden">
+                            <div class="percent-h">
+                                66%
+                            </div>
+                            <div class="caption">
+                                <span>Creating the Context</span>
+                            </div>
+                            <div class="photos-h">
+                                <div class="image-h">
+                                    <img class="image-user-h" src="img/galac.jpg" alt="">
+                                </div>
+                                <div class="image-h">
+                                    <img class="image-user-h" src="img/german.jpg" alt="">
+                                </div>
+                                <div class="image-h">
+                                    <img class="image-user-h" src="img/jonas.jpg" alt="">
+                                </div>
+                                <div class="more-users">+3</div>
+                            </div>
+                            <div class="date-h">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#a6a6a6"
+                                    class="bi bi-arrow-clockwise reload-button-h" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z" />
+                                    <path
+                                        d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z" />
+                                </svg>
+                                <span>Today, 13:40 PM</span>
+                            </div>
+                            <div class="buttons-h">
+                                <button class="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="13"
+                                        height="13" fill="#a6a6a6" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                    </svg></button>
+                            </div>
+                        </div>
+
+                        <div class="project-row-hidden">
+                            <div class="percent-h">0%</div>
+                            <div class="caption caption-h">Implementation in the Layout</div>
+                            <div class="photos-h">
+                                <div class="image-h">
+                                    <img class="image-user-h" src="img/max.jpg" alt="">
+                                </div>
+                                <div class="image-h">
+                                    <img class="image-user-h" src="img/noa.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="date-h">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#a6a6a6"
+                                    class="bi bi-arrow-clockwise reload-button-h" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z" />
+                                    <path
+                                        d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z" />
+                                </svg>
+                                <span>Yesterday, 12:40 PM</span>
+                            </div>
+                            <div class="buttons-h">
+                                <button class="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="13"
+                                        height="13" fill="#a6a6a6" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                    </svg></button>
+                            </div>
+
+                        </div>
+
                         <div class="project-row extend-project-row">
                             <div class="percent">
                                 23%
@@ -534,7 +642,6 @@
 
                         <div class="notify-row">
                             <div class="image-user-notify">
-
                                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#aacc4e"
                                     class="bi bi-circle-fill" viewBox="0 0 16 16">
                                     <circle cx="8" cy="8" r="8" />
@@ -578,9 +685,7 @@
                 </div>
             </div>
         </div>
-    <script>
-        
-    </script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
